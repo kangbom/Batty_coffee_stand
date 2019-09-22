@@ -80,3 +80,39 @@ header {
   width: 300px;
   float: left;
 }
+
+.information-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.information-list li {
+  margin-bottom: 10px;
+}
+
+.staff-list-area {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.staff-list {
+  width: 150px;
+  margin-right: 35px;
+  float: left;
+}
+
+.staf-list:last-child {
+  margin-right: 0;
+}
+
+.staff-image {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.staff-name {
+  text-align: center;
+}
